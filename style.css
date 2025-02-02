@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: #CA2D25;
+}
+#page-two{
+    background-color: #CA2D25;
+}
+
+header{
+    background-color: #CA2D25;
+    text-align: center;
+    padding: 2rem;
+    color: aqua;
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.welcome{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.welcome p{
+    font-weight: bold;
+    font-size: large;
+
+}
+.fixtures{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 1rem;
+}
+.fixture {
+    background-color: #AF2623;
+    padding: 1rem;
+    margin: 2rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+.fixture h3{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.fixture p{
+    display: flex;
+    justify-content: center;
+}
+
+.playerfixtures{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}   
+.playerfixture {
+    background-color: #AF2623;
+    padding: 1rem;
+    margin: 2rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+.playerfixture h3{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.playerfixture p{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+/* for mobile phone  for width 600px and less */
+.playerfixtures{ 
+    grid-template-columns: 100%;
+}   
+
+.search-input ,  .search-button {
+    /* use the !important to override the previous styles */
+    width:100% !important;
+}
+
+.n-container1 p{
+    display: inline-block;
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+    height: 10px;
+}
+.n-container h1{
+    color: white;
+    line-height: 1.5;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.n-container img{
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+}
+
+
+footer{
+    background-color: #CA2D25;
+    color: white;
+    text-align: left;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.app-store-badge {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem;
+    margin-left: 210px;
+    margin-top: -210px;
+}
+
+.app-store-badge img {
+    width: 150px;
+    height: auto;
+    display: block;
+}
+.fixture img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-top: 1rem;
+    margin-right: 2rem;
+   
+}
+.playerfixture img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-top: 1rem;
+    margin-right: 2rem;
+   
+}
+.contact-btn {
+    background-color: #CA2D25;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+}
+.about-main{
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+caption {
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f9f9f9;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    
+}
+th, td {
+    border: 1px solid #fff;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    background-color: #AF2623;
+}
+th {
+    background-color: #AF2623;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color:#AF2623;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+.logo img {
+    width: 40px; 
+    height: auto;
+}
+
+.sm-container{
+    color: white;
+    padding: 1rem;
+    display: grid;
+    font-weight: bold;
+}
+.sm-container a{
+    color: white;
+}
+.sm-container p{
+    color: white;
+    cursor: pointer;
+}
+.sm-container1{
+    padding: 1rem;
+}
+.sm-container1 h2{
+    color: white;
+    height: 2.5rem;
+  
+
+}
+.sm-container1 p{
+    color: white;
+    font-weight: bold;
+    height: 1rem;
+
+}
+.n-container{
+    border-radius: 5px;
+    background-color: #AF2623;
+    margin: 1rem;
+    padding: 1rem;
+
+}
+.n-container img{
+    height: 350px;
+    width: 30rem;
+    float: left;
+    margin: 1rem;
+}
+.n-container1 p{
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+    height: 10px;
+}
+.n-container h1{
+    color: white;
+    line-height: 1.5;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.n-container p{
+    color: white;
+    margin-bottom: 30px;
+}
+.n-container2{
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+    line-height: 0.2;
+}
+.n-container2 h2{
+    line-height: 1;
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+.me img{
+    width: 45%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+.legends-container{
+    color: white;
+    padding: 1rem;
+    line-height: 3; 
+}
+.legends-container p{
+    color: white;
+    padding: 0.2rem;
+    line-height: 1.5;
+}
+@media (max-width: 768px) {
+    .nav-links{
+        flex-direction: column;
+    }
+    .feautre{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .feautre{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1025px) {
+    .feautre{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+.search-section {
+    margin-top:70px;
+}
+
+.search-input{
+    width:65%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid grey;    
+    padding-left: 5px; 
+}
+
+.search-button {
+    margin-top:5%;
+    padding: 2px 50px;
+    font-size: 16px;
+    width: 15%;
+    height:40px;
+    cursor: pointer;
+    border:0px solid grey; 
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
