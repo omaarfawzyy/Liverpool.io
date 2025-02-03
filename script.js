@@ -2,7 +2,7 @@ let players = [];
 
 async function fetchPlayers() {
     const apiUrl = "https://api.statorium.com/api/v1/teams/3/?season_id=1";
-    const apiToken = "f818f7cba3a3f5abc6ec83f597c1b172"; 
+    const apiToken = "8uDcPt3Ouk4jQNmeo5orymP0mRDWZIhfssr20jcqQ5A5gky4ZSUIl4sATl4e"; 
     
     try {
         const response = await fetch(`${apiUrl}&apikey=${apiToken}`);
