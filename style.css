@@ -211,11 +211,7 @@ th, td {
 th {
     background-color: #AF2623;
     color: white;
-}
-tr:nth-child(even) {
-    background-color:#AF2623;
-    color: white;
-}
+
 
 body {
     margin: 0;
@@ -318,27 +314,6 @@ body {
     color: white;
     padding: 0.2rem;
     line-height: 1.5;
-}
-@media (max-width: 768px) {
-    .nav-links{
-        flex-direction: column;
-    }
-    .feautre{
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    .feautre{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (min-width: 1025px) {
-    .feautre{
-        grid-template-columns: repeat(3, 1fr);
-    }
-
 }
 
 
