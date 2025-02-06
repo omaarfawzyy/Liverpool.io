@@ -5,7 +5,7 @@
 }
 body{
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.6; 
     color: black;
     background-color: #CA2D25;
 }
@@ -93,7 +93,6 @@ header{
 
 
 @media only screen and (max-width: 600px) {
-/* for mobile phone  for width 600px and less */
 .playerfixtures{ 
     grid-template-columns: 100%;
 }   
@@ -173,7 +172,6 @@ footer{
     border-radius: 4px;
     font-size: 1rem;
     cursor: pointer;
-    transition: background-color 0.3s;
     position: fixed;
     top: 10px;
     right: 10px;
@@ -211,6 +209,7 @@ th, td {
 th {
     background-color: #AF2623;
     color: white;
+}
 
 
 body {
@@ -315,6 +314,7 @@ body {
     padding: 0.2rem;
     line-height: 1.5;
 }
+
 
 
 .search-section {
